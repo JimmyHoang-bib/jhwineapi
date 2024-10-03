@@ -21,6 +21,6 @@ def test_predict():
     assert response.status_code == 200
     assert response.json() == json.dumps({
         'prediction': 0,
-        'probability': [0.775931507030459, 0.224068492969541]
+        'probability': [0.7759315070304591, 0.22406849296954087]
     })
     
