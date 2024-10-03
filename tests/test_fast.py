@@ -23,3 +23,4 @@ def test_predict():
         'prediction': 0,
         'probability': [0.775931507030459, 0.224068492969541]
     })
+    
